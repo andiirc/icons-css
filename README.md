@@ -6,5 +6,7 @@ CSS-only version of Ionicons and extension with custom icons
 - Download zip folder from GitHub
 
 ## How to use
-<!-- for example, the alarm icon can be used in the following way.-->
+for example, the alarm icon can be used in the following way.
+```html
 <i class="ion ion-alarm-outline"></i>
+```
