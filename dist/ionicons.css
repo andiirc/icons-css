@@ -1,19 +1,23 @@
 @font-face {
     font-family: "ionicons";
     src: url("./ionicons.eot?6d31ef124529136babba43deeb36c79a?#iefix") format("embedded-opentype"),
-        /* url('./extended/ionicons.eot?99172527#iefix') format('embedded-opentype'), */
         url("./ionicons.woff2?6d31ef124529136babba43deeb36c79a") format("woff2"),
-        /* url('./extended/ionicons.woff2?99172527') format('woff2'), */
         url("./ionicons.woff?6d31ef124529136babba43deeb36c79a") format("woff"),
-        /* url('./extended/ionicons.woff?99172527') format('woff'), */
         url("./ionicons.ttf?6d31ef124529136babba43deeb36c79a") format("truetype"),
-        /* url('./extended/ionicons.ttf?99172527') format('truetype'), */
         url("./ionicons.svg?6d31ef124529136babba43deeb36c79a#ionicons") format("svg");
-        /* url('./extended/ionicons.svg?99172527#ionicons') format('svg'); */
+}
+
+@font-face {
+    font-family: "ionicons-extended";
+    src: url('./extended/ionicons.eot?99172527#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.woff2?99172527') format('woff2'),
+        url('./extended/ionicons.woff?99172527') format('woff'),
+        url('./extended/ionicons.ttf?99172527') format('truetype'),
+        url('./extended/ionicons.svg?99172527#ionicons') format('svg');
 }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
-    font-family: ionicons !important;
+    font-family: "ionicons", "ionicons-extended" !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
@@ -4019,7 +4023,7 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 .ion-woman:before {
     content: "\f634";
 }
-/* .ion-boundaries:before { 
+.ion-boundaries:before { 
     content: '\e801'; 
 }
 .ion-markets:before { 
@@ -4033,4 +4037,4 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 .ion-energy-resources:before { 
     content: '\e805'; 
-} */
+}
