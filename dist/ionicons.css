@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'ionicons-extended';
-    src: url('./extended/ionicons.eot?80f86a');
-    src: url('./extended/ionicons.eot?80f86a#iefix') format('embedded-opentype'),
-        url('./extended/ionicons.ttf?80f86a') format('truetype'),
-        url('./extended/ionicons.woff?80f86a') format('woff'),
-        url('./extended/ionicons.svg?80f86a#ionicons') format('svg');
+    src: url('./extended/ionicons.eot?esxwjl');
+    src: url('./extended/ionicons.eot?esxwjl#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.ttf?esxwjl') format('truetype'),
+        url('./extended/ionicons.woff?esxwjl') format('woff'),
+        url('./extended/ionicons.svg?esxwjl#ionicons') format('svg');
   }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
@@ -4023,18 +4023,26 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 .ion-woman:before {
     content: "\f634";
 }
-.ion-inspection:before {
-    content: "\e905";
-}
+
+/* Custom icons */
 .ion-energy-resources:before {
-    content: "\e904";
-}
-.ion-forecasts:before {
     content: "\e900";
 }
-.ion-programming:before {
+.ion-forecasts:before {
     content: "\e901";
 }
 .ion-events:before {
     content: "\e902";
+}
+.ion-programming:before {
+    content: "\e903";
+}
+.ion-inspection:before {
+    content: "\e904";
+}
+.ion-edit:before {
+    content: "\e905";
+}
+.ion-information:before {
+    content: "\e906";
 }
