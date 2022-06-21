@@ -4049,3 +4049,9 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 .ion-information:before {
     content: "\e906";
 }
+.ion-embedded-generator:before {
+    content: "\e908";
+}
+.ion-bars:before {
+    content: "\e909";
+}
