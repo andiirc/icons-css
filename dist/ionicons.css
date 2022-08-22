@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'ionicons-extended';
-    src: url('./extended/ionicons.eot?2quttz');
-    src: url('./extended/ionicons.eot?2quttz#iefix') format('embedded-opentype'),
-        url('./extended/ionicons.ttf?2quttz') format('truetype'),
-        url('./extended/ionicons.woff?2quttz') format('woff'),
-        url('./extended/ionicons.svg?2quttz#ionicons') format('svg');
+    src: url('./extended/ionicons.eot?r7i8e8');
+    src: url('./extended/ionicons.eot?r7i8e8#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.ttf?r7i8e8') format('truetype'),
+        url('./extended/ionicons.woff?r7i8e8') format('woff'),
+        url('./extended/ionicons.svg?r7i8e8#ionicons') format('svg');
   }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
@@ -4025,14 +4025,23 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 
 /* Custom icons */
+.ion-model-families:before {
+    content: "\e90a";
+}
+.ion-scada-points:before {
+    content: "\e907";
+}
+.ion-embedded-generator:before {
+    content: "\e908";
+}
+.ion-bars:before {
+    content: "\e909";
+}
 .ion-events:before {
     content: "\e902";
 }
 .ion-programming:before {
     content: "\e903";
-}
-.ion-scada-points:before {
-    content: "\e907";
 }
 .ion-energy-resources:before {
     content: "\e900";
@@ -4048,10 +4057,4 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 .ion-information:before {
     content: "\e906";
-}
-.ion-embedded-generator:before {
-    content: "\e908";
-}
-.ion-bars:before {
-    content: "\e909";
 }
