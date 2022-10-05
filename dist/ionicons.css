@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'ionicons-extended';
-    src: url('./extended/ionicons.eot?npyx16');
-    src: url('./extended/ionicons.eot?npyx16#iefix') format('embedded-opentype'),
-        url('./extended/ionicons.ttf?npyx16') format('truetype'),
-        url('./extended/ionicons.woff?npyx16') format('woff'),
-        url('./extended/ionicons.svg?npyx16#ionicons') format('svg');
+    src: url('./extended/ionicons.eot?cunjg2');
+    src: url('./extended/ionicons.eot?cunjg2#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.ttf?cunjg2') format('truetype'),
+        url('./extended/ionicons.woff?cunjg2') format('woff'),
+        url('./extended/ionicons.svg?cunjg2#ionicons') format('svg');
   }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
@@ -4025,8 +4025,8 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 
 /* Custom icons */
-.ion-icon-unmet-demand:before {
-    content: "\e90d";
+.ion-event-unmet-demand:before {
+    content: "\e90b";
 }
 .ion-event-ddv-rd:before {
     content: "\e90e";
