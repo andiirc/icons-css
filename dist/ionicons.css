@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'ionicons-extended';
-    src: url('./extended/ionicons.eot?r7i8e8');
-    src: url('./extended/ionicons.eot?r7i8e8#iefix') format('embedded-opentype'),
-        url('./extended/ionicons.ttf?r7i8e8') format('truetype'),
-        url('./extended/ionicons.woff?r7i8e8') format('woff'),
-        url('./extended/ionicons.svg?r7i8e8#ionicons') format('svg');
+    src: url('./extended/ionicons.eot?npyx16');
+    src: url('./extended/ionicons.eot?npyx16#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.ttf?npyx16') format('truetype'),
+        url('./extended/ionicons.woff?npyx16') format('woff'),
+        url('./extended/ionicons.svg?npyx16#ionicons') format('svg');
   }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
@@ -4025,6 +4025,18 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 
 /* Custom icons */
+.ion-icon-unmet-demand:before {
+    content: "\e90d";
+}
+.ion-event-ddv-rd:before {
+    content: "\e90e";
+}
+.ion-event-social:before {
+    content: "\e90f";
+}
+.ion-event-disconnection:before {
+    content: "\e910";
+}
 .ion-model-families:before {
     content: "\e90a";
 }
