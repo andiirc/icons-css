@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'ionicons-extended';
-    src: url('./extended/ionicons.eot?cunjg2');
-    src: url('./extended/ionicons.eot?cunjg2#iefix') format('embedded-opentype'),
-        url('./extended/ionicons.ttf?cunjg2') format('truetype'),
-        url('./extended/ionicons.woff?cunjg2') format('woff'),
-        url('./extended/ionicons.svg?cunjg2#ionicons') format('svg');
+    src: url('./extended/ionicons.eot?4wb0vb');
+    src: url('./extended/ionicons.eot?4wb0vb#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.ttf?4wb0vb') format('truetype'),
+        url('./extended/ionicons.woff?4wb0vb') format('woff'),
+        url('./extended/ionicons.svg?4wb0vb#ionicons') format('svg');
   }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
@@ -4025,48 +4025,51 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 
 /* Custom icons */
-.ion-event-unmet-demand:before {
-    content: "\e90b";
-}
-.ion-event-ddv-rd:before {
-    content: "\e90e";
-}
-.ion-event-social:before {
-    content: "\e90f";
-}
-.ion-event-disconnection:before {
-    content: "\e910";
-}
-.ion-model-families:before {
-    content: "\e90a";
-}
-.ion-scada-points:before {
-    content: "\e907";
-}
-.ion-embedded-generator:before {
+.ion-demand-generator:before {
     content: "\e908";
-}
-.ion-bars:before {
+  }
+  .ion-embedded-generator:before {
+    content: "\e90c";
+  }
+  .ion-event-unmet-demand:before {
+    content: "\e90b";
+  }
+  .ion-event-ddv-rd:before {
+    content: "\e90e";
+  }
+  .ion-event-social:before {
+    content: "\e90f";
+  }
+  .ion-event-disconnection:before {
+    content: "\e910";
+  }
+  .ion-model-families:before {
+    content: "\e90a";
+  }
+  .ion-scada-points:before {
+    content: "\e907";
+  }
+  .ion-bars:before {
     content: "\e909";
-}
-.ion-events:before {
+  }
+  .ion-events:before {
     content: "\e902";
-}
-.ion-programming:before {
+  }
+  .ion-programming:before {
     content: "\e903";
-}
-.ion-energy-resources:before {
+  }
+  .ion-energy-resources:before {
     content: "\e900";
-}
-.ion-forecasts:before {
+  }
+  .ion-forecasts:before {
     content: "\e901";
-}
-.ion-inspection:before {
+  }
+  .ion-inspection:before {
     content: "\e904";
-}
-.ion-edit:before {
+  }
+  .ion-edit:before {
     content: "\e905";
-}
-.ion-information:before {
+  }
+  .ion-information:before {
     content: "\e906";
-}
+  }
