@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'ionicons-extended';
-    src: url('./extended/ionicons.eot?ap30n0');
-    src: url('./extended/ionicons.eot?ap30n0#iefix') format('embedded-opentype'),
-        url('./extended/ionicons.ttf?ap30n0') format('truetype'),
-        url('./extended/ionicons.woff?ap30n0') format('woff'),
-        url('./extended/ionicons.svg?ap30n0#ionicons') format('svg');
+    src: url('./extended/ionicons.eot?f1xut');
+    src: url('./extended/ionicons.eot?f1xut#iefix') format('embedded-opentype'),
+        url('./extended/ionicons.ttf?f1xut') format('truetype'),
+        url('./extended/ionicons.woff?f1xut') format('woff'),
+        url('./extended/ionicons.svg?f1xut#ionicons') format('svg');
   }
 
 i[class^="ion-"]:before, i[class*=" ion-"]:before {
@@ -4025,17 +4025,20 @@ i[class^="ion-"]:before, i[class*=" ion-"]:before {
 }
 
 /* Custom icons */
+.ion-embedded-generator:before {
+    content: "\e908";
+}
+.ion-demand-generator:before {
+    content: "\e90c";
+}
+.ion-generation-model:before {
+    content: "\e912";
+}
 .ion-interpretation:before {
     content: "\e911";
 }
 .ion-markets:before {
     content: "\e90d";
-}
-.ion-demand-generator:before {
-    content: "\e908";
-}
-.ion-embedded-generator:before {
-    content: "\e90c";
 }
 .ion-event-unmet-demand:before {
     content: "\e90b";
